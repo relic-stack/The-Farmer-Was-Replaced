@@ -1,5 +1,5 @@
 clear()
-Dead_Pumpkin_Found = False
+Dead_Pumpkin_Found = True
 while True:
 
     for i in range(get_world_size()):
