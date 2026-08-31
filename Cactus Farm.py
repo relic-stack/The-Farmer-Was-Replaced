@@ -1,20 +1,38 @@
 clear()
 
-while num_items(Items.Pumpkin) <2:
+change_hat(Hats.Cactus_Hat)
 
-    for i in range(get_world_size()):
-
-        for j in range(get_world_size()):
-
-            if get_ground_type() != Grounds.Soil:
-                till()
+North_array = []
+East_array = [] 
 
 
-            plant(Entities.Cactus)
+while num_items(Items.Pumpkin) > 1:
 
-            if can_harvest():
-                harvest()
+	for i in range(3):
 
-            move(North)
+		for j in range(3):
 
-        move(East)
+			if get_ground_type() != Grounds.Soil:
+				till()
+
+
+			plant(Entities.Cactus)
+
+			if can_harvest():
+				harvest()
+
+			move(North)
+
+		move(South)
+		move(South)
+		move(South)
+		move(East)
+
+	move(West)
+	move(West)
+	move(West)
+
+	# Implement Bubble sort as matches ingame implementation
+	# bubble sort rows then columns? As apparently if sort rows first wont change order when columns sorted
+
+	break
