@@ -25,7 +25,7 @@ for i in range(n):
 	swapped = False
 
 	# bubble sort inner loop
-	for j in range(0, n): # try 0, n - i -1
+	for j in range(0, n-i-1): # try 0, n - i -1
 
 		# check we have cactus, always return integers
 		if get_entity_type() == Entities.Cactus:
@@ -40,6 +40,9 @@ for i in range(n):
 			swapped = True
 		move(East)
 
+
+	# move east i times (reset back to start of row)
+
 	# if sorted stop
 	if swapped == False:
 		break
@@ -50,7 +53,13 @@ for i in range(n):
 # Not completed sort, missing few smaller cactus
 # However 0,n gets them all so need debugging
 #	
-#
+# Issue is the move(east), if we have n, we move east x1
+# as at end of row its resets to start of row. However, if we stop
+# at pos 11 instead of 12, we need to move east x2.
+# create func to move east n times, after j loop complete, 
+# move east i times?, aim to get to start of row after each inner loop
+
+
 
 
 
