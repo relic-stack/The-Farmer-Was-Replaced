@@ -14,6 +14,11 @@ def plant_crop(crop):
 
 plant_crop(Entities.Cactus)
 
+
+def move_done(direction,n):
+	for i in range(n):
+		move(direction)
+
 # sort using bubble sort
 
 # sort row 1
@@ -42,27 +47,11 @@ for i in range(n):
 
 
 	# move east i times (reset back to start of row)
+	# i+1 due to i starting at 0
+	move_done(East, i+1)
 
 	# if sorted stop
 	if swapped == False:
 		break
-
-
-# Debug Notes:
-# inner loop j, for bubble sort when using 0, n-i-1
-# Not completed sort, missing few smaller cactus
-# However 0,n gets them all so need debugging
-#	
-# Issue is the move(east), if we have n, we move east x1
-# as at end of row its resets to start of row. However, if we stop
-# at pos 11 instead of 12, we need to move east x2.
-# create func to move east n times, after j loop complete, 
-# move east i times?, aim to get to start of row after each inner loop
-
-
-
-
-
-
 
 # sort columns
