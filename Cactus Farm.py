@@ -55,3 +55,9 @@ for i in range(n):
 		break
 
 # sort columns
+
+
+# Notes
+
+# next step is to put bubble sort code into function so it can run on each row
+# then on each column to get full sorted grid In direction NE
