@@ -15,10 +15,10 @@ while True:
 				plant(Entities.Tree)
 				
 		# harvest if possible and if taken 2 steps plant tree
-		if can_harvest():
+		if can_harvest() and i % 2 == 0:
 			harvest()
-			if i % 2 == 0:
-				plant(Entities.Tree)
+			plant(Entities.Tree)
+
 				
 		# water only tree, if water level < 0.4
 		if get_water() < 0.8 and get_entity_type() == Entities.Tree:
