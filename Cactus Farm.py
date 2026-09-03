@@ -56,19 +56,25 @@ def bubble_sort(direction):
 
 
 
-plant_crop_world(Entities.Cactus)
+def sort_world():
 
-# bubble sort every row in world 
-for i in range(get_world_size()):
-	bubble_sort(East)
-	move(North)
+	# bubble sort every row in world 
+	for i in range(get_world_size()):
+		bubble_sort(East)
+		move(North)
 
-# bubble sort every column in world
-for i in range(get_world_size()):
-	bubble_sort(North)
-	move(East)
+	# bubble sort every column in world
+	for i in range(get_world_size()):
+		bubble_sort(North)
+		move(East)
 
+# cactus requires x2 pumpkins to plant (requirement to plant entire map once)
+cactus_plant_req = 2 * get_world_size()**2
 
+while num_items(Items.Pumpkin) >= cactus_plant_req:
+	plant_crop_world(Entities.Cactus)
+	sort_world()
+	harvest()
 
 
 # Notes
