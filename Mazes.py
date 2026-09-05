@@ -57,8 +57,8 @@ def Maze_Solver():
 
 
 
-# Debug
-set_world_size(6)
+# Debug for Demo Video
+#set_world_size(6)
 
 
 
