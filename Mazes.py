@@ -1,3 +1,4 @@
+clear()
 plant(Entities.Bush)
 amount = get_world_size()
 use_item(Items.Weird_Substance, amount)
@@ -37,6 +38,7 @@ while True:
 				index = i
 
 		Right = Directions[(index + 1) % 4]
+		# index + 3: same as -1 and stops errors
 		Left = Directions[(index + 3) % 4]
 		Backward = Directions[(index + 2) % 4]
 
@@ -44,20 +46,23 @@ while True:
 		if can_move(Right):
 			move(Right)
 			# update orientation
+			Forward = Right
 
 		# if cannot move Right, Try Forward
 		elif can_move(Forward):
 			move(Forward)
 			# update orientation
+			Forward = Forward
 
 		# if cannot move Right or Forward. Try Left
 		elif can_move(Left):
 			move(Left)
 			# update orientation
+			Forward = Left
 
 		# Cannot Move, Right,Left,Foward.
 		else:
 			# Turn Around
 			move(Backward)
 			# update orientation
-			
+			Foward = Backward
