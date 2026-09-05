@@ -65,4 +65,4 @@ while True:
 			# Turn Around
 			move(Backward)
 			# update orientation
-			Foward = Backward
+			Forward = Backward
