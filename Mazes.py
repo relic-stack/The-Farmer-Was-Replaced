@@ -5,6 +5,7 @@ use_item(Items.Weird_Substance, amount)
 # Clockwise Directions
 Directions = [North, East, South, West]
 Forward = East
+index = -1
 
 while True:
 
@@ -30,4 +31,33 @@ while True:
 		## looped array so either + or - 2 works
 		#so TurnAround = Direction [+-2] = West
 
-		pass
+		# find index of current Forward Direction
+		for i in range(len(Directions)):
+			if Directions[i] == Forward:
+				index = i
+
+		Right = Directions[(index + 1) % 4]
+		Left = Directions[(index + 3) % 4]
+		Backward = Directions[(index + 2) % 4]
+
+		# Always Turn Right if possible
+		if can_move(Right):
+			move(Right)
+			# update orientation
+
+		# if cannot move Right, Try Forward
+		elif can_move(Forward):
+			move(Forward)
+			# update orientation
+
+		# if cannot move Right or Forward. Try Left
+		elif can_move(Left):
+			move(Left)
+			# update orientation
+
+		# Cannot Move, Right,Left,Foward.
+		else:
+			# Turn Around
+			move(Backward)
+			# update orientation
+			
