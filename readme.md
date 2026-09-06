@@ -13,40 +13,40 @@ Ordered by (Difficulty)
 
 ## Recent Achievements
 
-<table>
+<table width="100%">
   <tr>
-    <td valign="top" width="75%">
+    <td valign="top" width="70%">
       <font size="5"><b>Maze Solver</b></font><br>
       <b>Description:</b> Explanation of Problem / Approach / Optimising
     </td>
-    <td valign="top" align="center" width="25%">
+    <td valign="top" align="center" width="30%">
       <img src="Screenshots/Maze_Solver.png" width="250" alt="Maze Solver">
     </td>
   </tr>
   <tr>
-    <td valign="top" width="75%">
+    <td valign="top" width="70%">
       <font size="5"><b>Cactus Sorting</b></font><br>
       <b>Description:</b> Explanation of Problem / Approach / Optimising
     </td>
-    <td valign="top" align="center" width="25%">
+    <td valign="top" align="center" width="30%">
       <img src="Screenshots/Cactus.png" width="250" alt="Cactus Sort">
     </td>
   </tr>
   <tr>
-    <td valign="top" width="75%">
+    <td valign="top" width="70%">
       <font size="5"><b>Pumpkin Farm</b></font><br>
       <b>Description:</b> Explanation of Problem / Approach / Optimising
     </td>
-    <td valign="top" align="center" width="25%">
+    <td valign="top" align="center" width="30%">
       <img src="Screenshots/Pumpkin.png" width="250" alt="Pumpkin Farm">
     </td>
   </tr>
   <tr>
-    <td valign="top" width="75%">
+    <td valign="top" width="70%">
       <font size="5"><b>Tree Farm</b></font><br>
       <b>Description:</b> Explanation of Problem / Approach / Optimising
     </td>
-    <td valign="top" align="center" width="25%">
+    <td valign="top" align="center" width="30%">
       <img src="Screenshots/Tree.png" width="259" alt="Tree Farm">
     </td>
   </tr>
