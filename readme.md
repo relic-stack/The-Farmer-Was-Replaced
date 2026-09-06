@@ -38,7 +38,7 @@ Ordered by (Difficulty)
       <b>Description:</b> Explanation of Problem / Approach / Optimising
     </td>
     <td valign="top" align="center" width="25%">
-      <a href="Screenshots/Pumpkin.png"><img src="Screenshots/Pumpkin.png" width="250" alt="Pumpkin Farm"></a>
+      <img src="Screenshots/Pumpkin.png" width="250" alt="Pumpkin Farm">
     </td>
   </tr>
   <tr>
