@@ -10,6 +10,8 @@ Ordered by (Difficulty)
 - Sunflower Farm **(Low)**
 - Dinosaurs **(Low)**
 - MegaFarm **(Low)**
+- Refactor Code **(Low)**
+- Clean Directory **(Low)**
 
 ## Recent Achievements
 
