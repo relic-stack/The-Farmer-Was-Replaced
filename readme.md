@@ -20,7 +20,7 @@ Ordered by (Difficulty)
       <b>Description:</b> Explanation of Problem / Approach / Optimising
     </td>
     <td valign="top" align="center" width="30%">
-      <img src="Screenshots/Maze_Solver.png" width="250" alt="Maze Solver">
+      <img src="Screenshots/Maze_Solver.png" width="500" alt="Maze Solver">
     </td>
   </tr>
   <tr>
@@ -29,7 +29,7 @@ Ordered by (Difficulty)
       <b>Description:</b> Explanation of Problem / Approach / Optimising
     </td>
     <td valign="top" align="center" width="30%">
-      <img src="Screenshots/Cactus.png" width="250" alt="Cactus Sort">
+      <img src="Screenshots/Cactus.png" width="500" alt="Cactus Sort">
     </td>
   </tr>
   <tr>
@@ -38,7 +38,7 @@ Ordered by (Difficulty)
       <b>Description:</b> Explanation of Problem / Approach / Optimising
     </td>
     <td valign="top" align="center" width="30%">
-      <img src="Screenshots/Pumpkin.png" width="250" alt="Pumpkin Farm">
+      <img src="Screenshots/Pumpkin.png" width="500" alt="Pumpkin Farm">
     </td>
   </tr>
   <tr>
@@ -47,7 +47,7 @@ Ordered by (Difficulty)
       <b>Description:</b> Explanation of Problem / Approach / Optimising
     </td>
     <td valign="top" align="center" width="30%">
-      <img src="Screenshots/Tree.png" width="259" alt="Tree Farm">
+      <img src="Screenshots/Tree.png" width="500" alt="Tree Farm">
     </td>
   </tr>
 </table>
