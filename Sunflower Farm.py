@@ -1,5 +1,6 @@
 def move_to_pos(x,y):
-    # get current pos x pos y
+    current_x = get_pos_x()
+    current_y = get_pos_y()
     # input = target x,y
 
     # find difference
@@ -34,6 +35,12 @@ set_world_size(6)
 
 sunflowers = []
 Initial_Plant(sunflowers)
+
 print(sunflowers)
 # max uses first value in list, so val is first
 print(max(sunflowers)) #[15,5,3] [val,x,y]
+
+Target = max(sunflowers)
+x = Target[1] # type: ignore
+y = Target[2] # type: ignore
+move_to_pos(x,y)
