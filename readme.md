@@ -1,6 +1,6 @@
 # The Farmer Was Replaced Walkthrough
 
-The aim of this project is to track the progress of `The Farmer Was Replaced`. The Game is about controlling a drone by writing your own code. The language used is similar to python with a few custom inbuilt functions such as harvest() and plant().
+The aim of this project is to track the progress of `The Farmer Was Replaced`. The Game is about controlling a drone by writing your own code. The language used is similar to python with custom built-in functions such as harvest() and plant().
 
 ## Current Tasks
 Ordered by (Difficulty)
