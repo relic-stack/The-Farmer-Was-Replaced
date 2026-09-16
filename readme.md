@@ -19,7 +19,16 @@ Ordered by (Difficulty)
   <tr>
     <td valign="top" width="70%">
       <font size="5"><b>Maze Solver</b></font><br>
-      <b>Description:</b> Explanation of Problem / Approach / Optimising
+      <b>Description:</b> Needed a way to navigate mazes to find treasure. I implemented the wall-following algorithm e.g follow the left/right wall until maze is solved.<br>
+      <b> Algorithm:</b>
+      <ul>
+        <li>Always Turn Right</li>
+        <li>if blocked &rarr; Move Forward</li>
+        <li>if blocked &rarr; Turn Left</li>
+        <li>if blocked &rarr; Turn Around</li>
+        <li>if blocked &rarr; Move Forward</li>
+      </ul>
+      This approach only works on closed-loop mazes. Future work involves implementing an open-loop maze solver.
     </td>
     <td valign="top" align="center" width="30%">
       <img src="Screenshots/Maze_Solver.png" width="100%" alt="Maze Solver">
