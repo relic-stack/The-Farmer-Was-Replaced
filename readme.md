@@ -7,9 +7,9 @@ Ordered by (Difficulty)
 
 - Revisit Cactus Sorting Algorithm **(High)**
 - Maze Solver for Maze with loops **(Med)**
-- Sunflower Farm **(Low)**
+- Sunflower Farm **(Low)** - **Finished**
 - Dinosaurs **(Low)**
-- MegaFarm **(Low)**
+- MegaFarm **(Low)** - **WIP**
 - Refactor Code **(Low)**
 - Clean Directory **(Low)**
 
